@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SNA Predict</title>
+</head>
+<body>
+    <h4> Welcome to the Prediction Page </h4>
+
+    <div align = "center" class = "main">
+        <h1> Please enter the following information </h1>
+        <form action="result">
+            <table>
+                <tr>
+                    <td align="right">Gender: 0{Male} 1{Female}</td>
+                    <td align="left">
+                        <input type="text" name="n1">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Age</td>
+                    <td align="left">
+                        <input type="text" name="n2">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Estimated Salary</td>
+                    <td align="left">
+                        <input type="text" name="n3">
+                    </td>
+                </tr>
+            </table>
+            <input type="submit">
+        </form>
+        Result: <strong> {{result_show}} </strong>
+    </div>
+
+</body>
+</html>
